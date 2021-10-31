@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage('checkout') {
             steps {
-                git clone https://github.com/Rameshkumarsc/hello-world-war
+                sh "git clone https://github.com/Rameshkumarsc/hello-world-war"
             }
         }
     }
